@@ -24,7 +24,8 @@ cd ai-model-comparison
 pip install -r requirements.txt
 
 # Run the Streamlit app
-streamlit run app.pyweb browser at http://localhost:8502.
+streamlit run app.py
+web browser at http://localhost:8502.
 
 Enter your benchmark query or data in the provided text input.
 
@@ -34,19 +35,19 @@ View the comparison results, similarity scores, and recommendations displayed on
 
 Explore different benchmark queries and AI models to evaluate their performance.
 
-##Configuration
+## Configuration
 
 Add or remove AI models in the models dictionary in the app.py file.
 Customize the styling and layout of the app using HTML and CSS in the app.py file.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Acknowledgements
+## Acknowledgements
 
 The project uses the Streamlit framework for building the web application. Visit the Streamlit documentation for more information.
 
-##Contributing
+## Contributing
 
 Contributions to this project are welcome! If you have any suggestions, enhancements, or bug fixes, please open an issue or submit a pull request.
 
