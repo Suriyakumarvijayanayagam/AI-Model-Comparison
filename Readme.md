@@ -12,9 +12,7 @@ The AI Model Comparison project is a web application built with Streamlit that a
 
 ## Installation
 
-1. Clone the repository:
 
-```shell
 git clone https://github.com/Suriyakumarvijayanayagam/ai-model-comparison.git
 
 Navigate to the project directory:
@@ -31,7 +29,7 @@ shell
 Copy code
 streamlit run app.py
 Access the app in your web browser at http://localhost:8502.
-
+'''
 Enter your benchmark query or data in the provided text input.
 
 Select the AI models you want to compare from the model selection checkboxes.
@@ -40,19 +38,19 @@ View the comparison results, similarity scores, and recommendations displayed on
 
 Explore different benchmark queries and AI models to evaluate their performance.
 
-Configuration
+##Configuration
 
 Add or remove AI models in the models dictionary in the app.py file.
 Customize the styling and layout of the app using HTML and CSS in the app.py file.
 
-License
+##License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+##Acknowledgements
 
 The project uses the Streamlit framework for building the web application. Visit the Streamlit documentation for more information.
 
-Contributing
+##Contributing
 
 Contributions to this project are welcome! If you have any suggestions, enhancements, or bug fixes, please open an issue or submit a pull request.
 
